@@ -3,13 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Job listings</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+  <h1 class="visually-hidden">Job listings</h1>
+
+  <header class="site-header"></header>
+
+  <main class="main-content">
+    <div class="container">
+      <h2 class="visually-hidden">Job offers list</h2>
+      <ul class="job-listings">
+        <li class="job-listings-item job-listings-item-featured">
+          <img class="job-listings-logo" src="img/photosnap.svg" alt="logo"  width="88" height="88">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company-name">Photosnap</div>
+              <div class="job-listings-badges">
+                <span class="job-listings-badges-item badge badge-green">New!</span>
+                <span class="job-listings-badges-item badge badge-black">Featured</span>
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-link" href="#">Senior Frontend Developer</a>
+            </h3>
+            <div class="job-listings-addl">
+                <div class="job-listings-addl-item">1d ago</div>
+                <div class="job-listings-addl-item">Full time</div>
+                <div class="job-listings-addl-item">USE only</div>
+            </div>
+          </div>
+            <ul class="job-listings-tags">
+              <li class="job-listings-tags-item tag">Frontend</li>
+              <li class="job-listings-tags-item tag">Senoir</li>
+              <li class="job-listings-tags-item tag">Html</li>
+              <li class="job-listings-tags-item tag">Css</li>
+              <li class="job-listings-tags-item tag">JavaScript</li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </main>
 
   <script src="js/main.js"></script>
 </body>
